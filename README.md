@@ -1,2 +1,22 @@
-# whatsApp-Chatbot-using-Serverless-architecture-AWS-Batch-Processing-Auto-reminder-dynamodb
-Serverless WhatsApp chatbot built on AWS with Lambda, API Gateway, DynamoDB, and SQS/SNS. Supports batch message processing, auto-reminders, and scalable integration with WhatsApp Business API. Ideal for customer support, notifications, and automated engagement workflows.
+# WhatsApp Chatbot using Serverless AWS
+
+A simple **WhatsApp Chatbot** built on a **serverless AWS architecture** with **DynamoDB**, **batch processing**, and **auto-reminders**. Designed for scalable, cost-efficient customer engagement and notifications.
+
+---
+
+## 📺 Video Explanation
+[Watch on YouTube](https://www.youtube.com/watch?v=ckIy3TJm2VE)  
+
+---
+
+## 🚀 Features
+- Serverless deployment (AWS Lambda + API Gateway).  
+- DynamoDB for storing chat history and reminders.  
+- Batch processing with SQS/SNS or AWS Batch.  
+- Auto-reminders using CloudWatch/EventBridge.  
+
+---
+
+## 🏗️ Architecture
+WhatsApp → WhatsApp Business API → API Gateway → Lambda → DynamoDB
+↘ SQS/SNS → Batch Processor → Reminders
