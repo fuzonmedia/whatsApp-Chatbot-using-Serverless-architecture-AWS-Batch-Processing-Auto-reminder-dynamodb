@@ -1,0 +1,23 @@
+{
+  "name": "nrination-whatsapp-chatbot-serverless",
+  "version": "1.0.0",
+  "description": "chatbot development and be able to create a user-friendly and efficient chatbot that can deliver a course over a 5-day period. In addition to developing the chatbot and designing a user-friendly delivery system, we will also require analytics to be configured to track user engagement and progress throughout the course. This will include tracking the number of messages sent and received, as well as user responses and completion rates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "job": "node job.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-batch": "^3.282.0",
+    "aws-sdk": "^2.1397.0",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.2",
+    "serverless-dynamodb-local": "^0.2.40",
+    "serverless-http": "^3.2.0",
+    "serverless-offline": "^12.0.4"
+  }
+}
